@@ -1,5 +1,6 @@
 # G-lmeye
 Python-Döngüler
+
 For Döngüsü: Aynı işi birden fazla kez yapman gerektiğinde kullanırsın.
 Range Kullanımı: Başlangıç ve bitiş değeri belli olan durumlarda kullanılır.
 Örnek:
