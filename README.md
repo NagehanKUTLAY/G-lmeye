@@ -122,19 +122,20 @@ while (i<=20):
  print(i)
  i=i+2
 print(“Döngü sonu”)
-        Çıktı:
-        0
-        2
-        4
-        6
-        8
-        10
-        12
-        14
-        16
-        18
-        20
-        Döngü sonu
+      Çıktı:
+      0
+      2
+      4
+      6
+      8
+      10
+      12
+      14
+      16
+      18
+      20
+      Döngü sonu
+        
   
 Sonsuz Döngü: Mantık hatası sonsuz döngüye neden olabilir. Program sürekli çalışacaktır. Çıkmak için Ctrl+C tuşuna basmak gerekir.
 
@@ -143,6 +144,6 @@ i=15
 while(i<20):
   print(i)
   i=i-1
-        Çıktı:
-        while True:
-         print(“Sonsuz döngüye girildi”)
+      Çıktı:
+      while True:
+        print(“Sonsuz döngüye girildi”)
