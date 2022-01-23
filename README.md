@@ -85,12 +85,12 @@ NOTE: "in" operatörü metinsel(string) ifadeleri de harf harf ekrana yazdırabi
 for harfler in "Döngü":
   print(harfler)
   
-     Çıktı:
-     D
-     ö
-     n
-     g
-     ü
+      Çıktı:
+      D
+      ö
+      n
+      g
+      ü
 
 for i in[  ]:
     print(i)
@@ -122,21 +122,21 @@ while (i<=20):
  print(i)
  i=i+2
 print(“Döngü sonu”)
-      Çıktı:
-      0
-      2
-      4
-      6
-      8
-      10
-      12
-      14
-      16
-      18
-      20
-      Döngü sonu
-        
-  
+       Çıktı:
+       0
+       2
+       4
+       6
+       8
+       10
+       12
+       14
+       16
+       18
+       20
+       Döngü sonu
+
+
 Sonsuz Döngü: Mantık hatası sonsuz döngüye neden olabilir. Program sürekli çalışacaktır. Çıkmak için Ctrl+C tuşuna basmak gerekir.
 
 Örnek:
@@ -144,6 +144,6 @@ i=15
 while(i<20):
   print(i)
   i=i-1
-      Çıktı:
-      while True:
-        print(“Sonsuz döngüye girildi”)
+        Çıktı:
+        while True:
+          print(“Sonsuz döngüye girildi”)
