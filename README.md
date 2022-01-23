@@ -3,6 +3,7 @@ Python-Döngüler
 
 For Döngüsü: Aynı işi birden fazla kez yapman gerektiğinde kullanırsın.
 Range Kullanımı: Başlangıç ve bitiş değeri belli olan durumlarda kullanılır.
+
 Örnek:
 for sayilar in range(10):
  print(sayilar)
@@ -91,3 +92,57 @@ for harfler in "Döngü":
      g
      ü
 
+for i in[  ]:
+    print(i)
+(Buradaki "i" iterasyon değişkenidir)
+
+Note: Bazen bir liste veya dizi kullanmak yerine belirli sayıda sayıları kullanarak hesap yapmak isteyebiliriz. Bunun için;
+ for i in range(1,5):
+     print(i)
+      Çıktı:
+      1
+      2
+      3
+      4
+Tersine çevirmek istersek "reserved" değişkeni atanır.
+for i in reserved(range(1,5)):
+    print(i)
+      Çıktı:
+      4
+      3
+      2
+      1
+      
+      BELİRSİZ DÖNGÜLER
+       WHİLE: While döngüsü hemen hemen tüm programlama dillerinde bulunmaktadır. Test edilen ifade doğru (true) olduğu sürece kodları tekrarlamaktadır. While yapısı genellikle kod bloğunun kaç kez tekrar edileceğinin bilinmediği durumlarda kullanılmaktadır.
+      
+Örnek:
+i=0
+while (i<=20):
+ print(i)
+ i=i+2
+print(“Döngü sonu”)
+       Çıktı:
+       0
+       2
+       4
+       6
+       8
+       10
+       12
+       14
+       16
+       18
+       20
+       Döngü sonu
+  
+Sonsuz Döngü: Mantık hatası sonsuz döngüye neden olabilir. Program sürekli çalışacaktır. Çıkmak için Ctrl+C tuşuna basmak gerekir.
+
+Örnek:
+i=15
+while(i<20):
+  print(i)
+  i=i-1
+       Çıktı:
+       while True:
+         print(“Sonsuz döngüye girildi”)
